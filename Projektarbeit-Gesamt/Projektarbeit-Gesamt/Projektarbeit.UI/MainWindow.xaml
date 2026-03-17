@@ -1,0 +1,47 @@
+﻿<Window x:Class="Projektarbeit.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projektarbeit.UI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Bild auswählen -->
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,8">
+            <Button Width="140" Margin="0,0,8,0" Content="Bild auswählen" Click="PickImage_Click"/>
+            <TextBlock VerticalAlignment="Center" Text="{Binding SelectedImageText}" />
+        </StackPanel>
+
+        <!-- Pipeline starten + Status -->
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,0,0,8">
+            <Button Width="140" Margin="0,0,8,0" Content="Pipeline starten" Click="RunPipeline_Click"/>
+            <TextBlock VerticalAlignment="Center" Text="{Binding StatusText}" />
+        </StackPanel>
+
+        <!-- Audio Controls -->
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,0,0,8">
+            <TextBlock VerticalAlignment="Center" Text="Version:" Margin="0,0,8,0"/>
+            <ComboBox Width="120" Margin="0,0,8,0" ItemsSource="{Binding AudioFiles}" SelectedItem="{Binding SelectedAudioFile}"/>
+            <Button Width="80" Margin="0,0,8,0" Content="Play" Click="Play_Click"/>
+            <Button Width="80" Margin="0,0,8,0" Content="Stop" Click="Stop_Click"/>
+            <Button Width="140" Margin="0,0,8,0" Content="Musik speichern…" Click="SaveWav_Click"/>
+            <Button Width="140" Content="Analyse speichern…" Click="SaveAnalysis_Click"/>
+        </StackPanel>
+
+        <!-- Log / Analyse -->
+        <TextBox Grid.Row="3"
+             Text="{Binding LogText}"
+             IsReadOnly="True"
+             TextWrapping="Wrap"
+             VerticalScrollBarVisibility="Auto"
+             HorizontalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>
