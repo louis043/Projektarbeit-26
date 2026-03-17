@@ -1,6 +1,6 @@
 # Image-to-Music AI Pipeline
 
-## Requirementss
+## Requirements
 
 * Python 3.12+
 * .NET 10+
