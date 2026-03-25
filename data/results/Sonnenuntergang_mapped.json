@@ -1,0 +1,36 @@
+{
+  "image_path": "C:\\Users\\30090\\Projektarbeit\\data\\images\\Sonnenuntergang.jpg",
+  "caption": "the sun is setting over the ocean",
+  "music": {
+    "mood": "dark",
+    "genre": "cinematic",
+    "tempo_bpm": 75,
+    "instruments": [
+      "strings",
+      "pads",
+      "low brass"
+    ],
+    "debug": {
+      "mood_scores": {
+        "dark": 0.5369848608970642,
+        "dramatic": 0.3324788808822632,
+        "sad": 0.03045010194182396,
+        "energetic": 0.03031478077173233,
+        "neutral": 0.029157323762774467,
+        "calm": 0.02725609950721264,
+        "happy": 0.013358005322515965
+      },
+      "genre_scores": {
+        "cinematic": 0.3801097571849823,
+        "lofi": 0.30378714203834534,
+        "ambient": 0.08259663730859756,
+        "pop": 0.07770179957151413,
+        "folk": 0.053469110280275345,
+        "electronic": 0.031020358204841614,
+        "rock": 0.0270609799772501,
+        "classical": 0.02368735522031784,
+        "jazz": 0.020566822960972786
+      }
+    }
+  }
+}

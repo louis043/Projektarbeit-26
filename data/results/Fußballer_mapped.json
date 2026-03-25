@@ -1,0 +1,36 @@
+{
+  "image_path": "C:\\Users\\30090\\Projektarbeit\\data\\images\\Fußballer.jpg",
+  "caption": "a soccer player in a red and white uniform on a field",
+  "music": {
+    "mood": "dramatic",
+    "genre": "lofi",
+    "tempo_bpm": 85,
+    "instruments": [
+      "vinyl noise",
+      "piano",
+      "soft drums"
+    ],
+    "debug": {
+      "mood_scores": {
+        "dramatic": 0.3488354980945587,
+        "energetic": 0.3014988303184509,
+        "dark": 0.09411580860614777,
+        "neutral": 0.09375816583633423,
+        "happy": 0.0778026431798935,
+        "calm": 0.05486336350440979,
+        "sad": 0.02912566252052784
+      },
+      "genre_scores": {
+        "lofi": 0.43263381719589233,
+        "pop": 0.19719748198986053,
+        "cinematic": 0.1214158684015274,
+        "classical": 0.06059693545103073,
+        "ambient": 0.05954577401280403,
+        "folk": 0.04516654089093208,
+        "jazz": 0.031654711812734604,
+        "electronic": 0.028048746287822723,
+        "rock": 0.023740187287330627
+      }
+    }
+  }
+}

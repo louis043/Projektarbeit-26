@@ -1,0 +1,36 @@
+{
+  "image_path": "C:\\Users\\30090\\Projektarbeit\\data\\images\\Auto.jpg",
+  "caption": "a green sports car parked in front of a garage",
+  "music": {
+    "mood": "energetic",
+    "genre": "pop",
+    "tempo_bpm": 130,
+    "instruments": [
+      "drums",
+      "bass",
+      "keys"
+    ],
+    "debug": {
+      "mood_scores": {
+        "energetic": 0.42969226837158203,
+        "dramatic": 0.3531923294067383,
+        "happy": 0.07102185487747192,
+        "dark": 0.054268643260002136,
+        "neutral": 0.04317890480160713,
+        "calm": 0.02832762338221073,
+        "sad": 0.020318303257226944
+      },
+      "genre_scores": {
+        "pop": 0.29074791073799133,
+        "lofi": 0.2734249234199524,
+        "cinematic": 0.24294163286685944,
+        "ambient": 0.05996077507734299,
+        "jazz": 0.04187334328889847,
+        "folk": 0.02715972438454628,
+        "classical": 0.025146743282675743,
+        "rock": 0.019643589854240417,
+        "electronic": 0.01910141296684742
+      }
+    }
+  }
+}

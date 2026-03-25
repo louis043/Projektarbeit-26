@@ -1,0 +1,36 @@
+{
+  "image_path": "C:\\Users\\30090\\Projektarbeit\\data\\images\\Basketballer.jpg",
+  "caption": "a man in a yellow jersey holding a basketball ball",
+  "music": {
+    "mood": "dramatic",
+    "genre": "lofi",
+    "tempo_bpm": 85,
+    "instruments": [
+      "vinyl noise",
+      "piano",
+      "soft drums"
+    ],
+    "debug": {
+      "mood_scores": {
+        "dramatic": 0.2951374650001526,
+        "energetic": 0.28246861696243286,
+        "happy": 0.11736650764942169,
+        "neutral": 0.10613572597503662,
+        "dark": 0.086952805519104,
+        "calm": 0.06940441578626633,
+        "sad": 0.042534422129392624
+      },
+      "genre_scores": {
+        "lofi": 0.24702782928943634,
+        "cinematic": 0.24446122348308563,
+        "folk": 0.1806531846523285,
+        "ambient": 0.11045654863119125,
+        "pop": 0.1032664030790329,
+        "classical": 0.051368117332458496,
+        "jazz": 0.02606263756752014,
+        "rock": 0.019389161840081215,
+        "electronic": 0.017314892262220383
+      }
+    }
+  }
+}

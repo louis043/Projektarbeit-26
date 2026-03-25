@@ -1,0 +1,35 @@
+{
+  "image_path": "C:\\Users\\30090\\Projektarbeit\\data\\images\\Wasserflasche.jpg",
+  "caption": "a bottle of water on a white background",
+  "music": {
+    "mood": "calm",
+    "genre": "ambient",
+    "tempo_bpm": 75,
+    "instruments": [
+      "pads",
+      "soft synth"
+    ],
+    "debug": {
+      "mood_scores": {
+        "calm": 0.529542863368988,
+        "neutral": 0.39785143733024597,
+        "happy": 0.023144951090216637,
+        "dark": 0.020579775795340538,
+        "dramatic": 0.013389990665018559,
+        "energetic": 0.009251179173588753,
+        "sad": 0.006239762995392084
+      },
+      "genre_scores": {
+        "ambient": 0.6748663187026978,
+        "lofi": 0.09631793200969696,
+        "pop": 0.06725134700536728,
+        "folk": 0.047801725566387177,
+        "classical": 0.04263051226735115,
+        "cinematic": 0.039733584970235825,
+        "electronic": 0.013567686080932617,
+        "rock": 0.009021874517202377,
+        "jazz": 0.008809025399386883
+      }
+    }
+  }
+}
